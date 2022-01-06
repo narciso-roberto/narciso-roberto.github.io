@@ -1,0 +1,46 @@
+.footer {
+  background-color: #000000;
+  color: white;
+  padding: 50px;
+  position: relative;
+}
+
+.footer::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-image: url(/img/detalhe.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  top: -100px;
+  left: 150px;
+}
+
+.footer-conteudo {
+  width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 60px auto;
+  gap: 100px;
+}
+
+.footer-texto {
+  font-size: 1.5rem;
+  align-self: center;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  font-size: 2.25rem;
+  justify-self: center;
+}
+
+.footer-direitos {
+  font-size: 1.125rem;
+  margin-top: 20px;
+  color: #8f8f8f;
+}
