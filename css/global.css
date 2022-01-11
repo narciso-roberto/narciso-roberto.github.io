@@ -27,6 +27,6 @@ img {
   font-size: 8rem;
   line-height: 1;
   text-transform: uppercase;
+  width: 5ch;
   word-break: break-all;
-  max-width: 4ch;
 }
